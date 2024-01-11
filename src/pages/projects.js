@@ -16,3 +16,14 @@
 				height="400px"
 			/>
 */
+function projectsPage() {
+	// Select entry point
+	const content = document.getElementById("content");
+
+	// projects header
+	const title = document.createElement("h1");
+	title.textContent = "Restaraunt Title";
+	content.appendChild(title);
+}
+
+export { projectsPage };
