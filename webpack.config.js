@@ -12,6 +12,17 @@ module.exports = {
 				test: /\.css$/,
 				use: ["style-loader", "css-loader"],
 			},
+			{
+				test: /\.(png|jpe?g|gif|svg)$/i,
+				use: [
+					{
+						loader: "file-loader",
+						options: {
+							outputPath: "images", // This will put your images into a folder named 'images' in the output directory
+						},
+					},
+				],
+			},
 		],
 	},
 };

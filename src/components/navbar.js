@@ -12,6 +12,7 @@ function navBar() {
 	tabs.forEach((tabName) => {
 		const tab = document.createElement("a");
 		tab.classList.add("tab");
+		tab.id = tabName.toLowerCase();
 		tab.textContent = tabName;
 		tab.href = "#";
 		navContainer.appendChild(tab);

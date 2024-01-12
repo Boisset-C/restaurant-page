@@ -1,0 +1,17 @@
+#aboutPage {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid blue;
+	box-shadow: 0px 5px 5px 0px blue;
+	padding: 1rem;
+	margin: 1rem;
+	max-width: 60vw;
+}
+
+.aboutImage {
+	width: 400px;
+	height: 400px;
+}
